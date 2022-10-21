@@ -1,0 +1,19 @@
+{
+    "name": "smirnov/myproject",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Sergey Smirnov",
+            "email": "bigblitz@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MyProject\\": "src/MyProject/"
+        }
+    },
+    "require": {
+        "../myproject.loc/vendor/erusev/parsedown": "^1.7"
+    }
+}
